@@ -41,6 +41,10 @@ a {
     color: #9CA3DB;
 }
 
+a.text {
+  color: white;
+}
+
 a.button {
     padding: 10px;
     color: white;
