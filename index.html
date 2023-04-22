@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>gXXX</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="material.min.css">
+    <script src="material.min.js"></script>
+
+</head>
+<body>
+    <!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+mdl-layout--fixed-tabs">
+<header class="mdl-layout__header">
+<div class="mdl-layout__header-row">
+<!-- Title -->
+<span class="mdl-layout-title">gXXX</span>
+</div>
+<!-- Tabs -->
+<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+<a href="#fixed-tab-1" class="mdl-layout__tab is-active">Scratch Games (Turbowarp) </a>
+<a href="#fixed-tab-2" class="mdl-layout__tab">HTML 5 Games</a>
+<a href="#fixed-tab-3" class="mdl-layout__tab">Flash Games (Emulated with ruffle)</a>
+</div>
+</header>
+
+<main class="mdl-layout__content">
+
+<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+<div class="page-content">
+
+</div>
+</section>
+
+<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+<div class="page-content">
+
+</div>
+</section>
+
+<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+<div class="page-content">
+
+    <div class="demo-list-action mdl-list">
+        <div class="mdl-list__item">
+          <span class="mdl-list__item-primary-content">
+            <span>Bloxorz</span>
+          </span>
+          <a class="mdl-list__item-secondary-action" href="bloxorz.html"><i class="material-icons">play_arrow</i></a>
+        </div>
+        <div class="mdl-list__item">
+          <span class="mdl-list__item-primary-content">
+            <span>Baloons TD</span>
+          </span>
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">play_arrow</i></a>
+        </div>
+        <div class="mdl-list__item">
+          <span class="mdl-list__item-primary-content">
+            <span>placeholder</span>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">play_arrow</i></a>
+        </span>
+        </div>
+      </div>
+
+</div>
+</section>
+
+</main>
+
+<div aria-live="assertive" aria-atomic="true" aria-relevant="text" class="mdl-snackbar mdl-js-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button type="button" class="mdl-snackbar__action"></button>
+</div>
+
+<!-- Colored FAB button with ripple -->
+<button id="visrc" style="margin: 2%; float: left;" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+    <i class="material-icons">code</i>
+  </button>
+ <span class="mdl-tooltip mdl-tooltip--top" for="visrc">View source on Github</span>
+</div>
+</body>
+</html>
