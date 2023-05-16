@@ -8,6 +8,8 @@
             const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       swf = urlParams.get('swf')
+            const winw = window.innerWidth;
+const wih = window.innerHeight - 10;
         </script>
         <div id="container"> </div>
         <div id='ruffle'></div>
@@ -26,7 +28,7 @@ swfobject.embedSWF = function(url, cont, width, height){
     player.load({ url: url });
 }
 
-swfobject.embedSWF(swf, 'ruffle', 100vh, 99vh);
+swfobject.embedSWF(swf, 'ruffle', winw, winh);
         </script>
 
         <!-- Accent-colored raised button with ripple -->
